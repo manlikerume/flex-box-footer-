@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* .parent{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    border: 1px solid green;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* align-items: start;
+    justify-content: space-between;
+
+}
+
+.child{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 10px;
+    border: 3px solid black;
+} */
+
+footer{
+    height: auto;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    padding: 30px;
+}
+.first, .second, .third, .fourth, .fifth {
+    height: 300px;
+    background-color: grey;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 30px;
+   
+
+}
+
+.first{
+   flex: 40%;
+}
+
+.second{
+    flex: 10%;
+
+}
+.third{
+    flex: 10%;
+}
+.fourth{
+    flex: 10%;
+}
+
+.fifth{
+    flex: 30%;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover{
+
+    background-color: orange;
+    text-decoration: underline;
+
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: green;
+    border-radius: 10px;
+    border: 1px soild black;
+}
+
+.icon-container i:hover {
+    font-weight: 50px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+img{
+    height: 100x;
+    width: 100px;
+}
