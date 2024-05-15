@@ -30,8 +30,10 @@ footer{
     height: auto;
     width: 100vw;
     background-color: grey;
+    border: 3px solid black;
     display: flex;
     padding: 30px;
+    margin-bottom: 50px;
 }
 .first, .second, .third, .fourth, .fifth {
     height: 300px;
@@ -65,6 +67,7 @@ footer{
 li{
     list-style: none;
     margin-bottom: 10px;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -80,12 +83,18 @@ a:hover{
 h3{
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 button{
     background-color: green;
     border-radius: 10px;
     border: 1px soild black;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
 }
 
 .icon-container i:hover {
@@ -96,4 +105,44 @@ button{
 img{
     height: 100x;
     width: 100px;
+}
+
+h2{
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+   
+}
+.parentt{
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+.childd{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+
+}
+.whatsapp{
+    position: fixed;
+    font-size: 30px;
+    color: green;
+    bottom: 50px;
+    right: 50px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+    position: sticky;
+    top: 100px;
 }
